@@ -1,0 +1,17 @@
+BGP routing table information for VRF default, address family L2VPN EVPN
+Route Distinguisher: 192.168.0.10:3    (L3VNI 50999)
+BGP routing table entry for [5]:[0]:[0]:[32]:[1.1.1.1]/224, version 812
+Paths: (1 available, best #1)
+Flags: (0x000002) (high32 00000000) on xmit-list, is not in l2rib/evpn
+
+  Advertised path-id 1
+  Path type: local, path is valid, is best path, no labeled nexthop
+  Gateway IP: 0.0.0.0
+  AS-Path: NONE, path locally originated
+    192.168.0.1 (metric 0) from 0.0.0.0 (192.168.0.10)
+      Origin IGP, MED not set, localpref 100, weight 32768
+      Received label 50999
+      Extcommunity: RT:65000:50999 ENCAP:8 Router MAC:5254.0045.f457
+
+  Path-id 1 advertised to peers:
+    192.168.0.50       192.168.0.60
