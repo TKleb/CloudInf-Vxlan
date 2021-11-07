@@ -1,3 +1,5 @@
+# sh bgp l2vpn evpn 192.168.0.4
+
 BGP routing table information for VRF default, address family L2VPN EVPN
 Route Distinguisher: 192.168.0.10:32907    (L2VNI 50140)
 BGP routing table entry for [3]:[0]:[32]:[192.168.0.2]/88, version 11581

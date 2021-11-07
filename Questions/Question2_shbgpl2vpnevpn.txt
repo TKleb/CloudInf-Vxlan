@@ -1,3 +1,5 @@
+# sh bgp l2vpn evpn 172.21.141.10
+
 BGP routing table information for VRF default, address family L2VPN EVPN
 Route Distinguisher: 192.168.0.20:32908
 BGP routing table entry for [2]:[0]:[0]:[48]:[7608.f6f7.fa22]:[32]:[172.21.141.10]/272, 
